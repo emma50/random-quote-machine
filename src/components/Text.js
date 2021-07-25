@@ -14,15 +14,10 @@ const Text = ({text, color}) => (
 		/> {text}
 	</Col>
 )
+
 Text.propTypes = {
 	color: PropTypes.string,
 	text: PropTypes.string
 };
 
 export default Text;
-
-// import PropTypes from 'prop-types';
-// Text.propTypes = {
-// 	color: PropTypes.string,
-// 	text: PropTypes.string
-// };
